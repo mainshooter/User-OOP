@@ -1,6 +1,6 @@
 <?php
 
-  class User {
+  abstract class User {
     private $username;
     private $password;
 
@@ -44,6 +44,8 @@
         return(false);
       }
     }
+
+    abstract public function doStuff();
   }
 
 

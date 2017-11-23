@@ -3,7 +3,7 @@
   require_once 'User.class.php';
 
   class Supervisor extends User {
-    public function doSuperviserStuff() {
+    public function doStuff() {
       echo "SUPER";
     }
   }
